@@ -3,10 +3,45 @@
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
 body {
-  width:500px;
+  width:400px;
   margin:auto;
-  font-family: Arial, sans-serif;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 14px;
   line-height: 1.5;
-  padding-bottom: 200px;
+  padding-bottom: 100px;
+  text-align: center;
+}
+
+.appointment {
+	padding-top: 10px;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	border-bottom: solid 5px #FFFFFF;
+	background: #d8f3ea;
+  border-radius: 5px;
+  color: #333333;
+}
+
+.submit-button {
+  background: #66CDAA;
+  color: #FFFFFF;
+  cursor: pointer;
+  border: 2;
+  box-shadow:none;
+  border-radius: 5px;
+  font-size: 15px;
+  padding: 10px;
+  margin: 5px 5px 5px 5px;
+}
+
+.form-box {
+  border-radius: 10px;
+}
+
+.new-appointment {
+  padding-top: 10px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  border-bottom: solid 5px #FFFFFF;
+  background: #d8f3ea;
+  border-radius: 5px;
+  color: #333333;
 }

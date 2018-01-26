@@ -2,19 +2,24 @@
  * https://github.com/arqex/react-datetime
  */
 
+
+/* Styling for calendar widget taken from above link; however, the border-radius, border, and widget width values have been modified. */
+
 .rdt {
   position: relative;
 }
 .rdtPicker {
   display: none;
   position: absolute;
-  width: 250px;
+  width: 400px;
   padding: 4px;
   margin-top: 1px;
   z-index: 99999 !important;
   background: #fff;
   box-shadow: 0 1px 3px rgba(0,0,0,.1);
-  border: 1px solid #f9f9f9;
+  border: 1px solid #808080;
+  border-radius: 5px;
+  color: #333333;
 }
 .rdtOpen .rdtPicker {
   display: block;

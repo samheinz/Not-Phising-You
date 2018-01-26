@@ -2,8 +2,8 @@ var Appointments = React.createClass({
   getInitialState: function() {
     return {
       appointments: this.props.appointments,
-      title: 'Team standup meeting',
-      appt_time: '25 January 2016 9am'
+      title: 'Deploy application',
+      appt_time: '25 January 2018 3pm'
     }
   },
 
